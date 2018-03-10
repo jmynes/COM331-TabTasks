@@ -9,13 +9,18 @@
   .field
     = f.label "Task (verb)"
     = f.text_field :verb
+    -#= f.label "Deadline (timeframe)"
+    -#= f.text_field :timeframe  #- Does not work with :timeframe for some reason.
 
+  .field
+    = f.label "Deadline (timeframe)"
+    = f.text_field :deadline  #- Does not work with :timeframe for some reason.
 
-    %ul
-    = f.fields_for :deadlines do |deadline|
-      %li
-        = deadline.label "Deadline (timeframe)"
-        = deadline.text_field :timeframe
+    -#%ul
+    -#= f.fields_for :deadlines do |deadline|
+    -#  %li
+    -#    = deadline.label "Deadline (timeframe)"
+    -#    = deadline.text_field :timeframe
     -#%li
     -#   = deadline.label "Deadline (timeframe)"
     -#   = deadline.text_field :timeframe
