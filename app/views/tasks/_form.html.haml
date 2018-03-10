@@ -7,17 +7,17 @@
           %li= message
 
   .field
-    = f.label :verb
+    = f.label "Task (verb)"
     = f.text_field :verb
 
 
     %ul
     = f.fields_for :deadlines do |deadline|
       %li
-        = deadline.label :timeframe
+        = deadline.label "Deadline (timeframe)"
         = deadline.text_field :timeframe
       %li
-        = deadline.label :timeframe
+        = deadline.label "Deadline (timeframe)"
         = deadline.text_field :timeframe
 
   .actions
