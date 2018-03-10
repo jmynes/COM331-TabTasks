@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180310020050) do
+ActiveRecord::Schema.define(version: 20180310043928) do
 
   create_table "deadlines", force: :cascade do |t|
     t.string "timeframe"
@@ -29,6 +29,8 @@ ActiveRecord::Schema.define(version: 20180310020050) do
     t.string "verb"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "deadline_id"
+    t.index ["deadline_id"], name: "index_tasks_on_deadline_id"
   end
 
 end
