@@ -1,4 +1,4 @@
 class Task < ApplicationRecord
   belongs_to :deadline
-  validates :deadline, presence: true
+  validates :verb, presence: true
 end
