@@ -1,4 +1,4 @@
 class Task < ApplicationRecord
-  has_and_belongs_to_many :deadlines # Necessary?
+  belongs_to :deadline
   validates :deadline, presence: true
 end

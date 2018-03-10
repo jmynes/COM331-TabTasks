@@ -9,5 +9,16 @@
   .field
     = f.label :verb
     = f.text_field :verb
+
+
+    %ul
+    = f.fields_for :authors do |deadline|
+      %li
+        = deadline.label :timeframe
+        = deadline.text_field :timeframe
+      %li
+        = deadline.label :timeframe
+        = deadline.text_field :timeframe
+
   .actions
     = f.submit 'Save'
