@@ -11,7 +11,7 @@ Deadline.destroy_all
 
 @deadline = Deadline.create(timeframe: "One week")
 
-@task = Task.create(verb: "EG225 homework", timeframe: [@deadline])
-@task = Task.create(verb: "Study for exam", timeframe: [@deadline])
-@task = Task.create(verb: "Rewrite resume", timeframe: [@deadline])
+@task = Task.create(verb: "EG225 homework", deadline: @deadline)
+@task = Task.create(verb: "Study for exam", deadline: @deadline)
+@task = Task.create(verb: "Rewrite resume", deadline: @deadline)
 
