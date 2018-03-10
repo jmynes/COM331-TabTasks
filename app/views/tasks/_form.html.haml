@@ -1,4 +1,4 @@
-= form_for @task do |f|
+= form_for setup_task(@task) do |f|
   - if @task.errors.any?
     #error_explanation
       %h2= "#{pluralize(@task.errors.count, "error")} prohibited this task from being saved:"
@@ -9,21 +9,10 @@
   .field
     = f.label "Task (verb)"
     = f.text_field :verb
-    -#= f.label "Deadline (timeframe)"
-    -#= f.text_field :timeframe  #- Does not work with :timeframe for some reason.
-
-  .field
-    = f.label "Deadline (timeframe)"
-    = f.text_field :deadline  #- Does not work with :timeframe for some reason.
-
-    -#%ul
-    -#= f.fields_for :deadlines do |deadline|
-    -#  %li
-    -#    = deadline.label "Deadline (timeframe)"
-    -#    = deadline.text_field :timeframe
-    -#%li
-    -#   = deadline.label "Deadline (timeframe)"
-    -#   = deadline.text_field :timeframe
+  
+    = f.fields_for :deadline do |deadline|
+      = deadline.label "Deadline (timeframe)"
+      = deadline.text_field :timeframe
 
   .actions
     = f.submit 'Save'
