@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Task.destroy_all
+Deadline.destroy_all
+
+@deadline = Deadline.create(timeframe: "One week")
+
+@task = Task.create(verb: "EG225 homework", deadlines: [@deadline])
+@task = Task.create(verb: "Study for exam", deadlines: [@deadline])
+@task = Task.create(verb: "Rewrite resume", deadlines: [@deadline])
+
