@@ -9,8 +9,10 @@
 Task.destroy_all
 Deadline.destroy_all
 
-@deadline = Deadline.create(timeframe: "One week")
+@week     = Deadline.create(timeframe: "One week", urgency: "LOW")
+@today    = Deadline.create(timeframe: "Tonight", urgency: "ABSOLUTE")
+@deadline = Deadline.create(timeframe: "General reminder")
 
-@task = Task.create(verb: "EG225 homework", deadline: @deadline)
-@task = Task.create(verb: "Study for exam", deadline: @deadline)
+@task = Task.create(verb: "EG225 homework", deadline: @week)
+@task = Task.create(verb: "Study for exam", deadline: @today)
 @task = Task.create(verb: "Rewrite resume", deadline: @deadline)
