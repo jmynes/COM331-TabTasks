@@ -13,6 +13,8 @@
     = f.fields_for :deadline do |deadline|
       = deadline.label "Deadline (timeframe)"
       = deadline.text_field :timeframe
+      = deadline.label "Urgency (low-high)"
+      = deadline.text_field :urgency
 
   .actions
     = f.submit 'Save'
