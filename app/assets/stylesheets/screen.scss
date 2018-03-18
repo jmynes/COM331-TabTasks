@@ -21,6 +21,19 @@ html {
   line-height: px_to_em($base_line_height);
 }
 
+body {
+  background-color: #f0f0f0;
+  background-image: url("wallpaper.jpeg");
+  color: #FFFFFF;
+  
+  a {
+    color: #FFFFFF;
+  }
+  a:visited {
+    color: #CCCCCC;
+  }
+}
+
 tbody {
   td {
     padding-top: 1em;
