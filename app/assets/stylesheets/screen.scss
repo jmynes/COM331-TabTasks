@@ -8,6 +8,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-html {
+$base_font_size: 22;
+$base_line_height: 26;
 
+@function px_to_em($target,$context:$base_font_size) {
+  @return ($target / $context) * 1em
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: px_to_em($base_font_size, 16);
+  line-height: px_to_em($base_line_height);
+}
+
+tbody {
+  td {
+    padding-top: 1em;
+    padding-left: 1em;
+  }
 }
