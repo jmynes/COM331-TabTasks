@@ -14,6 +14,8 @@ gem 'sqlite3'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Use font awesome
+gem 'font-awesome-rails'
 # Use Haml for view templates
 gem 'haml-rails', '~> 1.0'
 # Use Uglifier as compressor for JavaScript assets
