@@ -50,6 +50,7 @@ a:visited {
 
     padding-top: 1em;
     padding-bottom: 1em;
+    line-height: px_to_em($base_line_height); /* Wasn't inheriting? */
     font-weight: 700;
     font-size: 1.793em;
   }
