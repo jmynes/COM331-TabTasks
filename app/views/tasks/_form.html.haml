@@ -1,20 +1,21 @@
-= form_for setup_task(@task) do |f|
-  - if @task.errors.any?
-    #error_explanation
-      %h2= "#{pluralize(@task.errors.count, "error")} prohibited this task from being saved:"
-      %ul
-        - @task.errors.full_messages.each do |message|
-          %li= message
+.task_form
+  = form_for setup_task(@task) do |f|
+    - if @task.errors.any?
+      #error_explanation
+        %h2= "#{pluralize(@task.errors.count, "error")} prohibited this task from being saved:"
+        %ul
+          - @task.errors.full_messages.each do |message|
+            %li= message
 
-  .field
-    = f.label "Task (verb)"
-    = f.text_field :verb
-  
-    = f.fields_for :deadline do |deadline|
-      = deadline.label "Deadline (timeframe)"
-      = deadline.text_field :timeframe
-      = deadline.label "Urgency (low-high)"
-      = deadline.text_field :urgency
+    .field
+      = f.label "Task (verb)"
+      = f.text_field :verb
+    
+      = f.fields_for :deadline do |deadline|
+        = deadline.label "Deadline (timeframe)"
+        = deadline.text_field :timeframe
+        = deadline.label "Urgency (low-high)"
+        = deadline.text_field :urgency
 
-  .actions
-    = f.submit 'Save'
+    .actions
+      = f.submit 'Save'
