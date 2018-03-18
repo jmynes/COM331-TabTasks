@@ -47,7 +47,11 @@ a:visited {
     color: white;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgba(0,0,0, 0.75);
-    font-size: 22px;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 700;
+    font-size: 1.793em;
   }
 
   .search-container {
@@ -77,11 +81,25 @@ a:visited {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
+
+  .container-container {
+    max-width: 77%;
+
+    .search-container {
+      max-width: 66%;
+      margin: auto;
+    }
+  }
+
   .container-container, .reminder-container, .search-container {
     float: none;
 
-    input[type=text], button {
+    h1 {
+      font-size: 0.772em;
+    }
+
+    input[type=text]/*, button */ {
       float: none;
       display: block;
       text-align: left;
@@ -92,6 +110,10 @@ a:visited {
 
     input[type=text] {
       border: 1px solid #ccc;  
+    }
+
+    button {
+      display: none;
     }
   }
 }
