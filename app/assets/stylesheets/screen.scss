@@ -188,6 +188,7 @@ nav {
       margin-top: 8px;
       font-size: 17px;
       border: none;
+      width: 66.667%;
     }
   }
 
@@ -270,6 +271,10 @@ tbody {
       width: 85%;
       margin-left: auto;
       margin-right: auto;
+
+      .searchBar {
+        width: 100%;
+      }
     }
 
     .searchForm:before {
@@ -279,6 +284,8 @@ tbody {
       float: left;
       left: -0.5em;
     }
+
+
   }
 
   .container-container, .reminder-container, .search-container {
