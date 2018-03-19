@@ -252,9 +252,11 @@ tbody {
     max-width: 77%;
 
     .reminder-container {
-      .fa-check, .fa-times {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
+      .affirmation-container {
+        .fa-check, .fa-times, .fab.action {
+          margin-left: 0.5em;
+          margin-right: 0.5em;
+        }
       }
     }
 
