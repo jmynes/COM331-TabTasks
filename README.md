@@ -14,29 +14,11 @@
 197     end
 198   end
 ```
-Rails.root: /home/jordan/Projects/COM331-TabTasks
+>Rails.root: /home/jordan/Projects/COM331-TabTasks
 
-###
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Details
+* Rails 5.1.4
+* Extra installed Gems:
+  * sass-rails
+  * font-awesome-rails
+  * haml-rails
