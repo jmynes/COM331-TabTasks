@@ -97,9 +97,12 @@ https://material.io/guidelines/style/color.html#color-color-palette
 }
 
 .fab.action {
+  display: inline-block;
   text-align: center;
   margin: auto;
   margin-top: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 nav {
