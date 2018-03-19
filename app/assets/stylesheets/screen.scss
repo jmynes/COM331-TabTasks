@@ -50,6 +50,12 @@ http://materialdesignblog.com/creating-a-simple-material-design-action-button-wi
   color: rgba(255, 255, 255, 0.66);
   text-align: center;
   line-height: 1em;
+
+  /* Override seen link */
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
 }
 
 .fab:hover {
