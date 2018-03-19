@@ -7,6 +7,13 @@ I tend to get lost in a sea of tasks, or simply forget something that I had mean
 ### Solution
 Replace my new tab page with something resembling [/r/startpages](https://www.reddit.com/r/startpages). An aesthetically pleasing task tracker that I **have** to look at every time I open a new blank tab might be a good start!
 
+Mobile view:
+![Mobile view](https://raw.githubusercontent.com/jmynes/COM331-TabTasks/master/_notes/mobileview.png "Mobile view")
+
+Desktop view:
+![Desktop view](https://raw.githubusercontent.com/jmynes/COM331-TabTasks/master/_notes/desktopview.jpeg "Desktop view")
+
+
 ## TODO:
 * Implement task affirmation functions
   * Currently just a check and x button without a function
@@ -17,6 +24,8 @@ Replace my new tab page with something resembling [/r/startpages](https://www.re
   * Capitalization .to_case?
 * Standardize/enforce timeframes and deadlines
 * Reorganize SCSS, fix hacks, implement rems
+* Collapsible sidebar
+  * Move some functions into sidebar, a screenshot of my attempt is in the notes directory
 
 ## Known bugs:
 
