@@ -4,6 +4,9 @@
 .container-container
   .reminder-container
     %h1 Did you remember to _____?
+    .fab{:class=>"fa fa-check"}
+    .fab{:class=>"fa fa-times"}
+
   .search-container
     %input{:type=>"text", :placeholder=>"Search..."}
     %button{:type=>"submit", :class=>"fa fa-search"}
