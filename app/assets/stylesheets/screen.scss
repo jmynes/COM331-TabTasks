@@ -48,10 +48,23 @@ h2.title {
 
 p.display {
   text-align: center;
+  margin-bottom: 1em;
 }
 
 p#notice {
   margin-bottom: 1em;
+}
+
+form ul {
+  margin-top: 1em;
+}
+
+form li {
+  margin-bottom: 1em;
+  font-weight: 700;
+  color: #F44336;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 /* 
