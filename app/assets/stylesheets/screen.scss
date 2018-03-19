@@ -76,6 +76,7 @@ http://materialdesignblog.com/creating-a-simple-material-design-action-button-wi
 .menu {
   margin-top: 1em;
   margin-left: 1em;
+  margin-bottom: -2em; /* Hotfix */
 
   .fab {
     width: 1em;
@@ -108,6 +109,12 @@ http://materialdesignblog.com/creating-a-simple-material-design-action-button-wi
     line-height: px_to_em($base_line_height); /* Wasn't inheriting? */
     font-weight: 700;
     font-size: 1.793em;
+
+    /* Very temporary style */
+    .affirmation-container {
+      margin-top: 0.5em;
+      margin-bottom: -0.5em;
+    }
 
     .fa-check, .fa-times {
       -webkit-text-stroke-width: 1px;
