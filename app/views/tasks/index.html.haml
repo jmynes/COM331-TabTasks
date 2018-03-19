@@ -15,4 +15,5 @@
     %input.searchBar{:autocomplete => "off", :autofocus => "autofocus", :name => "q", :placeholder => "Search DuckDuckGo...", :search_ => "", :type => "text"}/
 
   .fab.action
-    = link_to '+', new_task_path
+    = link_to new_task_path do
+      %i.fa.fa-plus
