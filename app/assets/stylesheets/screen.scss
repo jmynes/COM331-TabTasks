@@ -170,6 +170,13 @@ nav {
     }
   }
 
+  .searchForm:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    content: "\f002";
+    margin-left: -1em; /* Offset so searchbar isn't displaced */
+  }
+
   /* Replace with nav, testing. */
   .nav-container {
     float: right;
@@ -224,6 +231,21 @@ table {
     .search-container {
       max-width: 66%;
       margin: auto;
+    }
+
+    /* Mobile offset for searchbar/icon */
+    .searchForm {
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .searchForm:before {
+      content: "\f002";
+      font-family: 'FontAwesome';
+      position: relative;
+      float: left;
+      left: -0.5em;
     }
   }
 
