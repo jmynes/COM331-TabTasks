@@ -14,6 +14,5 @@
   %form.searchForm{:action => "https://duckduckgo.com/?q=", :method => "get"}
     %input.searchBar{:autocomplete => "off", :autofocus => "autofocus", :name => "q", :placeholder => "Search DuckDuckGo...", :search_ => "", :type => "text"}/
 
-  .nav-container
-    .fab
-      = link_to '+', new_task_path
+  .fab.action
+    = link_to '+', new_task_path
