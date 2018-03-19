@@ -5,6 +5,8 @@ class TasksController < ApplicationController
   # GET /tasks.json
   def index
     @tasks = Task.all
+    @reminder = @tasks.sample.verb
+    puts @reminder
   end
 
   # GET /tasks/1

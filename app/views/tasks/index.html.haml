@@ -1,9 +1,11 @@
 .menu 
-  .fab{:class=>"fa fa-bars"}
+  .fab{:class=>"fa fa-calendar"}
+    -#= link_to '+', list_task_path
 
 .container-container
   .reminder-container
-    %h1 Did you remember to _____?
+    %h1 Did you remember to #{@reminder}
+
     .affirmation-container
       .fab{:class=>"fa fa-check"}
       .fab{:class=>"fa fa-times"}
