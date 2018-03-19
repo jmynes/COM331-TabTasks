@@ -54,5 +54,7 @@ Replace my new tab page with something resembling [/r/startpages](https://www.re
   * haml-rails
 
 >$ bundle install
+
 >$ rake db:migrate
+
 >$ rails s
