@@ -9,8 +9,14 @@
   %p#notice= notice
 
   %p.display
-    %b Verb:
+    Verb:
     = @task.verb
+  %p.display
+    Deadline:
+    = @task.deadline.timeframe
+  %p.display
+    Urgency: 
+    = @task.deadline.urgency
 
   .fab.action
     = link_to cpanel_path do
