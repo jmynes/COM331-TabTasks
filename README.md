@@ -2,7 +2,13 @@
 
 ## TODO:
 * Implement task affirmation functions
-  * Currently just a check and x button.
+  * Currently just a check and x button without a function
+* Tasks should be smarter, based on system clock with a deadline that matters beyond bookkeeping
+* Better reminder text
+  * Urgency/deadline?
+  * Grammar/syntax?
+  * Capitalization .to_case?
+* Standardize/enforce timeframes and deadlines
 
 ## Known bugs:
 
@@ -20,6 +26,17 @@
 198   end
 ```
 >Rails.root: /home/jordan/Projects/COM331-TabTasks
+
+## Wishlist
+* Wallpaper slider
+  * Test readability against more wallpapers
+* Better layout
+* Nicer looking search bar
+  * Google/configurable
+* Expanded featureset
+  * Options
+  * Weather?
+
 
 ## Environment
 * Rails 5.1.4
