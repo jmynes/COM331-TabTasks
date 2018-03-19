@@ -16,6 +16,7 @@ Replace my new tab page with something resembling [/r/startpages](https://www.re
   * Grammar/syntax?
   * Capitalization .to_case?
 * Standardize/enforce timeframes and deadlines
+* Reorganize SCSS, fix hacks, implement rems
 
 ## Known bugs:
 
@@ -51,3 +52,7 @@ Replace my new tab page with something resembling [/r/startpages](https://www.re
   * sass-rails
   * font-awesome-rails
   * haml-rails
+
+>$ bundle install
+>$ rake db:migrate
+>$ rails s
