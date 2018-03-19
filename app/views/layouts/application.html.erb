@@ -3,7 +3,10 @@
   <head>
     <title>New Tab</title>
     <!-- https://icons8.com/icon/set/plus/all -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <%= favicon_link_tag asset_path('favicon.png'), :rel => 'icon', :type =>  'image/png' %>
+    <%= favicon_link_tag asset_path('favicon.ico'), :rel => 'icon', :type => "image/x-icon" %>
+
+
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
