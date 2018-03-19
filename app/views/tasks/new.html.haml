@@ -1,5 +1,14 @@
-%h1 New task
+%nav
+  .fab
+    = link_to tasks_path do
+      %i.fa.fa-chevron-left
+
+%br
+%br
+%br
+
+%h1 Add a task to the list
 
 = render 'form'
 
-= link_to 'Back', tasks_path
+= link_to '', tasks_path

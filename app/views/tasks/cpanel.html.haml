@@ -1,3 +1,12 @@
+%nav
+  .fab
+    = link_to tasks_path do
+      %i.fa.fa-chevron-left
+
+%br
+%br
+%br
+
 %h2 Listing tasks
 %table
   %thead
@@ -14,8 +23,3 @@
         %td= link_to 'Show', task
         %td= link_to 'Edit', edit_task_path(task)
         %td= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' }
-
-%br
-%br
-%br
-= link_to 'Back', tasks_path

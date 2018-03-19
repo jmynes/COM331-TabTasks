@@ -80,7 +80,7 @@ https://material.io/guidelines/style/color.html#color-color-palette
   background-color: #F44336;
 }
 
-.menu {
+nav {
   margin-top: 1em;
   margin-left: 1em;
   margin-bottom: -2em; /* Hotfix */
@@ -90,6 +90,10 @@ https://material.io/guidelines/style/color.html#color-color-palette
     height: 1em;
     font-size: 2em;
     line-height: 1em;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .fab:hover {
     background-color: transparent;
     box-shadow: none;
   }
