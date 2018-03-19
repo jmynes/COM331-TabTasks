@@ -266,6 +266,33 @@ tbody {
       font-size: 0.772em;
     }
 
+    h1.title {
+      font-size: 1.138em;
+    }
+
+    table {
+      margin-top: 2em;
+      font-size: 0.878em;
+
+      td {
+        margin: 0;
+        padding: 0;
+      }
+
+      td.icon {
+        display: inline-block;
+        font-size: 1.575em;
+        margin: 0.878em;
+        padding: 0;
+      }
+
+      td.title {
+        display: inline-block;
+        text-align: none;
+        width: 100%;
+      }
+    }
+
     input[type=text]/*, button */ {
       display: block;
       text-align: left;

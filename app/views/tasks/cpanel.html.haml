@@ -13,13 +13,14 @@
       %tbody
         - @tasks.each do |task|
           %tr
-            %td= task.verb
-            %td
+            %td.title
+              = task.verb
+            %td.icon
               =link_to task do
                 %i.fa.fa-eye
-            %td
+            %td.icon
               = link_to edit_task_path(task) do
                 %i.fa.fa-pencil
-            %td
+            %td.icon
               = link_to task, method: :delete, data: { confirm: 'Are you sure?' } do
                 %i.fa.fa-trash
