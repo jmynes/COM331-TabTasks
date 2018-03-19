@@ -3,10 +3,11 @@
     = link_to tasks_path do
       %i.fa.fa-home
 
-%h1.title Editing task
+.container-container
+  %h1.title Editing task
 
-= render 'form'
+  = render 'form'
 
-.fab.action
-  = link_to @task do
-    %i.fa.fa-eye
+  .fab.action
+    = link_to @task do
+      %i.fa.fa-eye

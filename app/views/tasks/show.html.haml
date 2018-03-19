@@ -3,14 +3,15 @@
     = link_to tasks_path do
       %i.fa.fa-home
 
-%h1.title Task details
+.container-container
+  %h1.title Task details
 
-%p#notice= notice
+  %p#notice= notice
 
-%p.display
-  %b Verb:
-  = @task.verb
+  %p.display
+    %b Verb:
+    = @task.verb
 
-.fab.action
-  = link_to edit_task_path(@task) do
-    %i.fa.fa-pencil
+  .fab.action
+    = link_to edit_task_path(@task) do
+      %i.fa.fa-pencil

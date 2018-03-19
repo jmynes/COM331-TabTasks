@@ -3,8 +3,9 @@
     = link_to tasks_path do
       %i.fa.fa-home
 
-%h1.title Add a task to the list
+.container-container
+  %h1.title Add a task to the list
 
-= render 'form'
+  = render 'form'
 
--#= link_to 'home', tasks_path
+  -#= link_to 'home', tasks_path

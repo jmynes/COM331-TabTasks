@@ -3,22 +3,23 @@
     = link_to tasks_path do
       %i.fa.fa-home
 
-%h1.title Listing tasks
-%h2.title View, edit, and destroy tasks
+.container-container
+  %h1.title Listing tasks
+  %h2.title View, edit, and destroy tasks
 
-.panel
-  %hr
-  %table
-    %tbody
-      - @tasks.each do |task|
-        %tr
-          %td= task.verb
-          %td
-            =link_to task do
-              %i.fa.fa-eye
-          %td
-            = link_to edit_task_path(task) do
-              %i.fa.fa-pencil
-          %td
-            = link_to task, method: :delete, data: { confirm: 'Are you sure?' } do
-              %i.fa.fa-trash
+  .panel
+    %hr
+    %table
+      %tbody
+        - @tasks.each do |task|
+          %tr
+            %td= task.verb
+            %td
+              =link_to task do
+                %i.fa.fa-eye
+            %td
+              = link_to edit_task_path(task) do
+                %i.fa.fa-pencil
+            %td
+              = link_to task, method: :delete, data: { confirm: 'Are you sure?' } do
+                %i.fa.fa-trash
