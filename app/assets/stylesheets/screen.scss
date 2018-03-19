@@ -36,8 +36,14 @@ a:visited {
 
 h1.title {
   text-align: center;
-  font-size: 1.383em;
+  font-size: 1.138em;
   margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+h2.title {
+  text-align: center;
+  font-size: 1em;
   margin-bottom: 1em;
 }
 
@@ -189,6 +195,10 @@ nav {
       margin-bottom: 1em;
     }
   }
+}
+
+table {
+  margin: auto;
 }
 
 
