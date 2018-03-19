@@ -34,6 +34,17 @@ a:visited {
   color: #CCCCCC;
 }
 
+h1.title {
+  text-align: center;
+  font-size: 1.383em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+p.display {
+  text-align: center;
+}
+
 /* 
 Adapted from:
 http://materialdesignblog.com/creating-a-simple-material-design-action-button-with-css/
@@ -78,6 +89,12 @@ https://material.io/guidelines/style/color.html#color-color-palette
 }
 .fa-times:hover {
   background-color: #F44336;
+}
+
+.fab.action {
+  text-align: center;
+  margin: auto;
+  margin-top: 1em;
 }
 
 nav {

@@ -3,12 +3,10 @@
     = link_to tasks_path do
       %i.fa.fa-chevron-left
 
-%br
-%br
-%br
-
-%h1 Editing task
+%h1.title Editing task
 
 = render 'form'
 
-= link_to 'Show', @task
+.fab.action
+  = link_to @task do
+    %i.fa.fa-eye
