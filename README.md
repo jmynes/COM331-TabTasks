@@ -8,6 +8,7 @@ I tend to get lost in a sea of tasks, or simply forget something that I had mean
 Replace my new tab page with something resembling [/r/startpages](https://www.reddit.com/r/startpages). An aesthetically pleasing task tracker that I **have** to look at every time I open a new blank tab might be a good start!
 
 Mobile view:
+
 ![Mobile view](https://raw.githubusercontent.com/jmynes/COM331-TabTasks/master/_notes/mobileview.png "Mobile view")
 
 Desktop view:
