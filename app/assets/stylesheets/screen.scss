@@ -257,20 +257,14 @@ table {
     }
 
     input[type=text]/*, button */ {
-      float: none;
       display: block;
       text-align: left;
       width: 100%;
-      margin: 0;
-      padding: 14px;
+      padding: 0.5em;
     }
 
     input[type=text] {
       border: 1px solid #ccc;  
-    }
-
-    button {
-      display: none;
     }
   }
 }
