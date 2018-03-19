@@ -5,7 +5,7 @@
 
 .container-container
   .reminder-container
-    %h1 Did you remember to #{@reminder}
+    %h1{:class=>"reminder"} Did you remember to #{@reminder}?
 
     .affirmation-container
       .fab{:class=>"fa fa-check"}
