@@ -1,0 +1,16 @@
+%h2 Listing tasks
+%table
+  %thead
+    %tr
+      %th Verb
+      %th
+      %th
+      %th
+
+  %tbody
+    - @tasks.each do |task|
+      %tr
+        %td= task.verb
+        %td= link_to 'Show', task
+        %td= link_to 'Edit', edit_task_path(task)
+        %td= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' }

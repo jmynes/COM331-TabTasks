@@ -1,6 +1,7 @@
 .menu 
-  .fab{:class=>"fa fa-calendar"}
-    -#= link_to '+', list_task_path
+  .fab
+    = link_to '/cpanel' do
+      %i.fa.fa-calendar
 
 .container-container
   .reminder-container
@@ -16,23 +17,3 @@
   .nav-container
     .fab
       = link_to '+', new_task_path
-
-%br
-%br
-
-%h2 Listing tasks
-%table
-  %thead
-    %tr
-      %th Verb
-      %th
-      %th
-      %th
-
-  %tbody
-    - @tasks.each do |task|
-      %tr
-        %td= task.verb
-        %td= link_to 'Show', task
-        %td= link_to 'Edit', edit_task_path(task)
-        %td= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' }

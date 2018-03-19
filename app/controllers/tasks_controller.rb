@@ -9,6 +9,11 @@ class TasksController < ApplicationController
     # puts @reminder
   end
 
+  # GET /tasks/list
+  def cpanel
+    @tasks = Task.all
+  end
+
   # GET /tasks/1
   # GET /tasks/1.json
   def show
