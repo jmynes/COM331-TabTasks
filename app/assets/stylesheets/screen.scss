@@ -221,6 +221,13 @@ table {
   margin: auto;
 }
 
+/* Table styles */
+tbody {
+  td {
+    padding-top: 1em;
+    padding-left: 1em;
+  }
+}
 
 @media screen and (max-width: 620px) {
 
@@ -266,13 +273,5 @@ table {
     input[type=text] {
       border: 1px solid #ccc;  
     }
-  }
-}
-
-/* Table styles */
-tbody {
-  td {
-    padding-top: 1em;
-    padding-left: 1em;
   }
 }
