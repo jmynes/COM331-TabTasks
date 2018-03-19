@@ -128,28 +128,16 @@ https://material.io/guidelines/style/color.html#color-color-palette
     }
   }
 
-  .search-container {
+  /* Search functionality/names from: https://www.reddit.com/r/startpages/comments/83qha0/minimal_startpage_with_time_date_and_duckduckgo/?st=jexnpnbl&sh=8cf96095 */
+  .searchForm {
     text-align: center;
     margin-bottom: 1em;
 
-    input[type=text] {
+    .searchBar {
       padding: 6px;
       margin-top: 8px;
       font-size: 17px;
       border: none;
-    }
-
-    button {
-      padding: 6px 10px;
-      margin-top: 8px;
-      margin-right: 16px;
-      background: #ddd;
-      font-size: 17px;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #ccc;
     }
   }
 
