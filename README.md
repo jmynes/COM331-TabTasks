@@ -1,6 +1,6 @@
 # README
 
-## COM 331 Solo Project One
+## COM 331 Solo Project One, Professor Karl Stolley
 ### Problem
 I tend to get lost in a sea of tasks, or simply forget something that I had meant to do. This often results in aimlessly browsing Facebook and endlessly opening new tabs.
 
@@ -67,3 +67,11 @@ Desktop view:
 >$ rake db:migrate
 
 >$ rails s
+
+
+## Resources
+* [Course website](https://courses.karlstolley.com/app/)
+  * [Class Repo](https://github.com/app-2018/library-checkout)
+* [Material colors](https://material.io/guidelines/style/color.html#color-color-palette)
+* [HEX to RGB](https://www.webpagefx.com/web-design/hex-to-rgb/)
+* [Scaling](http://www.modularscale.com/?1&em&1.067)
