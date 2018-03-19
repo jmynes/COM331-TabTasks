@@ -5,11 +5,11 @@
 
 .container-container
   .reminder-container
-    %h1{:class=>"reminder"} Did you remember to #{@reminder}?
+    %h1.reminder Did you remember to #{@reminder}?
 
     .affirmation-container
-      .fab{:class=>"fa fa-check"}
-      .fab{:class=>"fa fa-times"}
+      .fab.fa.fa-check
+      .fab.fa.fa-times
 
   %form.searchForm{:action => "https://duckduckgo.com/?q=", :method => "get"}
     %input.searchBar{:autocomplete => "off", :autofocus => "autofocus", :name => "q", :placeholder => "Search DuckDuckGo...", :search_ => "", :type => "text"}/
