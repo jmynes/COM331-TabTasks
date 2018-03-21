@@ -7,12 +7,16 @@ I tend to get lost in a sea of tasks, or simply forget something that I had mean
 ### Solution
 Replace my new tab page with something resembling [/r/startpages](https://www.reddit.com/r/startpages). An aesthetically pleasing task tracker that I **have** to look at every time I open a new blank tab might be a good start!
 
+#### How's it look?
+
+[Click for full mobile responsive workflow gallery: ](https://imgur.com/a/9hBwj)
+
 Mobile view:
 
-![Mobile view](https://raw.githubusercontent.com/jmynes/COM331-TabTasks/master/_notes/mobileview.png "Mobile view")
+![Mobile view](https://i.imgur.com/O18wbd1.png "Mobile view")
 
 Desktop view:
-![Desktop view](https://raw.githubusercontent.com/jmynes/COM331-TabTasks/master/_notes/desktopview.jpeg "Desktop view")
+![Desktop view](https://i.imgur.com/E3FcA59.jpg "Desktop view")
 
 
 ## TODO:
