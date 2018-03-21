@@ -53,9 +53,10 @@ Desktop view:
   * font-awesome-rails
   * haml-rails
 
+### Setup
 >$ bundle install
 
->$ rake db:migrate
+>$ rake db:setup
 
 >$ rails s
 
