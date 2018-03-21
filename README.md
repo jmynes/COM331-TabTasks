@@ -47,7 +47,7 @@ Desktop view:
 
 
 ## Environment
-* Rails 5.1.4
+* Rails 5.1.5
 * Extra installed Gems:
   * sass-rails
   * font-awesome-rails
