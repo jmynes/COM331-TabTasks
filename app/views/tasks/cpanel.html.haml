@@ -24,3 +24,6 @@
             %td.icon
               = link_to task, method: :delete, data: { confirm: 'Are you sure?' } do
                 %i.fa.fa-trash
+    .fab.action
+      = link_to new_task_path do
+        %i.fa.fa-plus
