@@ -34,7 +34,7 @@ Desktop view:
 
 ## Wishlist
 * Wallpaper slider
-  * Test readability against more wallpapers
+  * [Here are some example wallpapers (unattributed)](https://imgur.com/a/Xz9Ea)
 * Better layout
 * Nicer looking search bar
   * Google/configurable
