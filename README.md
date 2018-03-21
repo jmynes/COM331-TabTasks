@@ -29,20 +29,7 @@ Desktop view:
 
 ## Known bugs:
 
-* The delete function broke, I don't know which commit it broke at. Reverting to the haml/html that was generated for it does not work, I assume I messed up the controller somewhere.
->ActionController::InvalidAuthenticityToken
-
->Extracted source (around line #195):
-
-```
-193
-194       def handle_unverified_request
-195         raise ActionController::InvalidAuthenticityToken
-196       end
-197     end
-198   end
-```
->Rails.root: /home/jordan/Projects/COM331-TabTasks
+* Known bugs have been squashed!
 
 ## Wishlist
 * Wallpaper slider
