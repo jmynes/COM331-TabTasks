@@ -29,6 +29,7 @@ Desktop view:
   * Capitalization .to_case?
 * Standardize/enforce timeframes and deadlines
 * Reorganize SCSS, fix hacks, implement rems
+  * [Curious about this for potential deduplication? Probably best to do it by hand though.](http://zmoazeni.github.io/csscss/)
 * Collapsible sidebar
   * Move some functions into sidebar, a screenshot of my attempt is in the notes directory
 
@@ -44,6 +45,8 @@ Desktop view:
 * Expanded featureset
   * Options
   * Weather?
+* Optional slide-out sidebar
+  * [Sidebar w/ non-intrusive JS](https://www.google.com/search?q=off+canvas+navigation)
 
 
 ## Environment
