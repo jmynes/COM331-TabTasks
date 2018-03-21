@@ -1,6 +1,6 @@
 # README
 
-## COM 331 Solo Project One, Professor Karl Stolley
+## [COM 331 Solo Project One](https://courses.karlstolley.com/app/projects/#project-one), Professor Karl Stolley
 ### Problem
 I tend to get lost in a sea of tasks, or simply forget something that I had meant to do. This often results in aimlessly browsing Facebook and endlessly opening new tabs.
 
@@ -36,8 +36,7 @@ Desktop view:
 * Wallpaper slider
   * [Here are some example wallpapers (unattributed)](https://imgur.com/a/Xz9Ea)
 * Better layout
-* Nicer looking search bar
-  * Google/configurable
+* Google/configurable search
 * Expanded featureset
   * Options
   * Weather?
