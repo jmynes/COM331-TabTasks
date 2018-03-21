@@ -13,6 +13,6 @@ Deadline.destroy_all
 @today    = Deadline.create(timeframe: "Tonight", urgency: "ABSOLUTE")
 @deadline = Deadline.create(timeframe: "General reminder")
 
-@task = Task.create(verb: "EG225 homework", deadline: @week)
-@task = Task.create(verb: "Study for exam", deadline: @today)
-@task = Task.create(verb: "Rewrite resume", deadline: @deadline)
+@task = Task.create(verb: "do your EG225 homework", deadline: @week)
+@task = Task.create(verb: "study for your exam", deadline: @today)
+@task = Task.create(verb: "rewrite your resume", deadline: @deadline)
