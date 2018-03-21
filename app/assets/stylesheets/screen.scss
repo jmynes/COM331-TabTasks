@@ -67,6 +67,13 @@ form li {
   list-style-position: inside;
 }
 
+input[type=text] {
+  background: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
 /* 
 Adapted from:
 http://materialdesignblog.com/creating-a-simple-material-design-action-button-with-css/
@@ -336,10 +343,6 @@ tbody {
       text-align: left;
       width: 100%;
       padding: 0.5em;
-    }
-
-    input[type=text] {
-      border: 1px solid #ccc;  
     }
   }
 }
