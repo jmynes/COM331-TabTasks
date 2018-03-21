@@ -72,6 +72,7 @@ input[type=text] {
   color: white;
   border: none;
   border-bottom: 1px solid white;
+  
 }
 
 /* 
@@ -224,17 +225,25 @@ nav {
   text-align: center;
   margin-top: 11%;
 
+  .field {
+    width: 100%;
+  }
+
   form {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    width: 50%;
 
     input {
       display: block;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 1em;
+      width: inherit;
+      font-size: 0.772em;
+      line-height: 2.041em;
     }
   }
 }
@@ -338,11 +347,15 @@ tbody {
       }
     }
 
+    form {
+      width: 100%;
+    }
+
     input[type=text]/*, button */ {
       display: block;
       text-align: left;
       width: 100%;
-      padding: 0.5em;
+      margin-bottom: 1.575em;
     }
   }
 }
