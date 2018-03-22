@@ -67,6 +67,8 @@ Desktop view:
 
 >$ rails s
 
+> Browse to 0.0.0.0:3000/tasks
+
 
 ## Resources
 * [Course website](https://courses.karlstolley.com/app/)
