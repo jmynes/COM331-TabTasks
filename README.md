@@ -1,8 +1,10 @@
 # README
 
+
 ## [COM 331 Solo Project One](https://courses.karlstolley.com/app/projects/#project-one), Professor Karl Stolley
 ### Problem
 I tend to get lost in a sea of tasks, or simply forget something that I had meant to do. This often results in aimlessly browsing Facebook and endlessly opening new tabs.
+
 
 ### Solution
 Replace my new tab page with something resembling [/r/startpages](https://www.reddit.com/r/startpages). An aesthetically pleasing task tracker that I **have** to look at every time I open a new blank tab might be a good start!
@@ -25,28 +27,30 @@ Desktop view:
 * Tasks should be smarter, based on system clock with a deadline that matters beyond bookkeeping
 * Better reminder text
   * Urgency/deadline?
-  * Grammar/syntax?
-  * Capitalization .to_case?
+  * Grammar/syntax? Currently handled with seeds.rb
+  * Capitalization, some form of .to_case?
 * Standardize/enforce timeframes and deadlines
 * Reorganize SCSS, fix hacks, implement rems
   * [Curious about this for potential deduplication? Probably best to do it by hand though.](http://zmoazeni.github.io/csscss/)
 * Collapsible sidebar
-  * Move some functions into sidebar, a screenshot of my attempt is in the notes directory
+
 
 ## Known bugs:
 
 * Known bugs have been squashed!
 
+
 ## Wishlist
 * Wallpaper slider
   * [Here are some example wallpapers (unattributed)](https://imgur.com/a/Xz9Ea)
-* Better layout
+* Improved layout
 * Google/configurable search
 * Expanded featureset
   * Options
   * Weather?
 * Optional slide-out sidebar
-  * [Sidebar w/ non-intrusive JS](https://www.google.com/search?q=off+canvas+navigation)
+  * Moving some functions into sidebar might be nice, a screenshot of my rudimentary attempt from much earlier in the project is in [the \_notes directory](https://raw.githubusercontent.com/jmynes/COM331-TabTasks/master/_notes/sidebarAttempt.png)
+  * [Useful sidebar w/ non-intrusive JS search terms](https://www.google.com/search?q=off+canvas+navigation)
 
 
 ## Environment
