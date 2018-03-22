@@ -121,6 +121,13 @@ https://material.io/guidelines/style/color.html#color-color-palette
   background-color: #F44336;
 }
 
+.trash {
+  background-color: rgba(244, 67, 54, 0.66);
+}
+.trash:hover {
+  background-color: #F44336;
+}
+
 .fab.action {
   display: inline-block;
   text-align: center;
@@ -269,6 +276,10 @@ tbody {
     padding-top: 1em;
     padding-left: 1em;
   }
+}
+
+td.trash-no-bg a:hover {
+  color: #F44336;
 }
 
 @media screen and (max-width: 655px) {
