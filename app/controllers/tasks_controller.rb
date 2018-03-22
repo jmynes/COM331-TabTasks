@@ -6,7 +6,10 @@ class TasksController < ApplicationController
   def index
     @tasks = Task.all
     @reminder = @tasks.sample.verb
-    # puts @reminder
+
+    # @due = @tasks.sample.deadline.timeframe
+    # Compare to timestamp of task creation, do some math
+      #
   end
 
   # GET /tasks/list

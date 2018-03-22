@@ -17,5 +17,8 @@
         = deadline.label "Urgency (low-high)"
         = deadline.text_field :urgency
 
+        -#= deadline.text_field :urgency
+        -#= f.select :deadline, [['LOW','low'],['MEDIUM','medium'],['HIGH','high'],['ABSOLUTE','absolute']]
+
     .actions
       = f.submit 'Save'
