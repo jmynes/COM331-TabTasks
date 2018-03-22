@@ -24,3 +24,6 @@
   .fab.action
     = link_to edit_task_path(@task) do
       %i.fa.fa-pencil
+  .fab.action.trash
+    = link_to @task, method: :delete, data: { confirm: 'Are you sure?' } do
+      %i.fa.fa-trash

@@ -14,3 +14,6 @@
   .fab.action
     = link_to @task do
       %i.fa.fa-eye
+  .fab.action.trash
+    = link_to @task, method: :delete, data: { confirm: 'Are you sure?' } do
+      %i.fa.fa-trash

@@ -20,7 +20,7 @@
             %td.icon
               = link_to edit_task_path(task) do
                 %i.fa.fa-pencil
-            %td.icon
+            %td.icon.trash-no-bg
               = link_to task, method: :delete, data: { confirm: 'Are you sure?' } do
                 %i.fa.fa-trash
     .fab.action
