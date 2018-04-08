@@ -1,4 +1,4 @@
-# README
+# README - Project 1 Version
 
 
 ## [COM 331 Solo Project One](https://courses.karlstolley.com/app/projects/#project-one), Professor Karl Stolley
