@@ -32,7 +32,6 @@ Desktop view:
 * Standardize/enforce timeframes and deadlines
 * Reorganize SCSS, fix hacks, implement rems
   * [Curious about this for potential deduplication? Probably best to do it by hand though.](http://zmoazeni.github.io/csscss/)
-* Collapsible sidebar
 
 
 ## Known bugs:
