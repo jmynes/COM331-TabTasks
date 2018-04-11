@@ -4,8 +4,8 @@
 ## [COM 331 Project Two (Continuation of Project One: TabTasks)](https://courses.karlstolley.com/app/projects/#project-two), Professor Karl Stolley
 
 ## Authors
-[Jordan Mynes](https://github.com/jmynes)
-[Haris Uddin](https://github.com/huddin)
+* [Jordan Mynes](https://github.com/jmynes)
+* [Haris Uddin](https://github.com/huddin)
 
 
 ## Environment
