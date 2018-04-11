@@ -2,6 +2,25 @@
 
 
 ## [COM 331 Solo Project One](https://courses.karlstolley.com/app/projects/#project-one), Professor Karl Stolley
+
+
+## Environment
+* Rails 5.1.5
+* Extra installed Gems:
+  * sass-rails
+  * font-awesome-rails
+  * haml-rails
+
+### Setup
+>$ bundle install
+
+>$ rake db:setup
+
+>$ rails s
+
+> Browse to 0.0.0.0:3000/tasks
+
+
 ### Problem
 I tend to get lost in a sea of tasks, or simply forget something that I had meant to do. This often results in aimlessly browsing Facebook and endlessly opening new tabs.
 
@@ -50,23 +69,6 @@ Desktop view:
 * Optional slide-out sidebar
   * Moving some functions into sidebar might be nice, a screenshot of my rudimentary attempt from much earlier in the project is in [the \_notes directory](https://raw.githubusercontent.com/jmynes/COM331-TabTasks/master/_notes/sidebarAttempt.png)
   * [Useful sidebar w/ non-intrusive JS search terms](https://www.google.com/search?q=off+canvas+navigation)
-
-
-## Environment
-* Rails 5.1.5
-* Extra installed Gems:
-  * sass-rails
-  * font-awesome-rails
-  * haml-rails
-
-### Setup
->$ bundle install
-
->$ rake db:setup
-
->$ rails s
-
-> Browse to 0.0.0.0:3000/tasks
 
 
 ## Resources
