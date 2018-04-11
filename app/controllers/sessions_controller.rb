@@ -7,10 +7,12 @@ class SessionsController < ApplicationController
       user.email = auth_hash['info']['email']
     end
     self.current_user = @user
+    redirect_to posts_url, notice: "You have logged in, welcome: #{current_user.nickname}!"
   end
   def login
   end
   def logout
+    reset_session
     redirect_to login_url, notice: 'You have been logged out'
   end
 end
