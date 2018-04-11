@@ -7,4 +7,9 @@ class SessionsController < ApplicationController
       user.email = auth_hash['info']['email']
     end
   end
+  def login
+  end
+  def logout
+    redirect_to login_url, notice: 'You have been logged out'
+  end
 end
