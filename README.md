@@ -1,7 +1,11 @@
 # README
 
 
-## [COM 331 Solo Project One](https://courses.karlstolley.com/app/projects/#project-one), Professor Karl Stolley
+## [COM 331 Project Two (Continuation of Project One: TabTasks)](https://courses.karlstolley.com/app/projects/#project-two), Professor Karl Stolley
+
+## Authors
+[Jordan Mynes]https://github.com/jmynes)
+[Haris Uddin](https://github.com/huddin)
 
 
 ## Environment
