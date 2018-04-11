@@ -1,6 +1,12 @@
 class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
 
+  # IS THIS CORRECT BELOW? This change was manually edited from
+  # https://github.com/jmynes/COM331-Userblog/commit/0d5c9aba4c9e476fdcc6e3690efd205f233b82a2
+
+  # Authenticate users on following pages (except...)
+  before_action :authenticate_user, except: [:index, :show]
+  
   # GET /tasks
   # GET /tasks.json
   def index
@@ -35,6 +41,7 @@ class TasksController < ApplicationController
   # POST /tasks.json
   def create
     @task = Task.new(task_params)
+    @task.user = current_user
 
     respond_to do |format|
       if @task.save
