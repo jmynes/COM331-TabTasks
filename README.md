@@ -3,6 +3,10 @@
 
 ## [COM 331 Project Two (Continuation of Project One: TabTasks)](https://courses.karlstolley.com/app/projects/#project-two), Professor Karl Stolley
 
+## What's different between this and [Project One](https://github.com/jmynes/COM331-TabTasks/tree/project-1nd)?
+* Hopefully a few of the  missing TODO & wishlist features get implemented
+* OAuth integration
+
 ## Authors
 * [Jordan Mynes](https://github.com/jmynes)
 * [Haris Uddin](https://github.com/huddin)
