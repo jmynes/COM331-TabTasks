@@ -5,7 +5,7 @@
 
 ## What's different between this and [Project One](https://github.com/jmynes/COM331-TabTasks/tree/project-1)?
 * This project now has an [Upstream master branch](https://github.com/COM331-Jordan-Harris-Project/COM331-TabTasks)
-  * The [original branch](https://github.com/jmynes/COM331-TabTasks/tree/master) was:
+  * The [original repo](https://github.com/jmynes/COM331-TabTasks/tree/master) was:
     * [branched](https://github.com/jmynes/COM331-TabTasks/tree/project-1) to maintain a copy of Project 1
     * Then [forked](https://github.com/COM331-Jordan-Harris-Project/COM331-TabTasks) to create Project 2 upstream
   * Every change will be made by having both org members (see: authors) review pull requests made to upstream from their repos
