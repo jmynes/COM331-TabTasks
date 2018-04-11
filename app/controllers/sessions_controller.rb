@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
       user.email = auth_hash['info']['email']
     end
     self.current_user = @user
-    redirect_to posts_url, notice: "You have logged in, welcome: #{current_user.nickname}!"
+    redirect_to tasks_url, notice: "You have logged in, welcome: #{current_user.nickname}!"
   end
   def login
   end
