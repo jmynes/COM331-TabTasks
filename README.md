@@ -36,11 +36,11 @@ Replace my new tab page with something resembling [/r/startpages](https://www.re
 
 [Click for full mobile responsive workflow gallery: ](https://imgur.com/a/9hBwj)
 
-Mobile view:
+##### Mobile view:
 
 ![Mobile view](https://i.imgur.com/O18wbd1.png "Mobile view")
 
-Desktop view:
+##### Desktop view:
 ![Desktop view](https://i.imgur.com/E3FcA59.jpg "Desktop view")
 
 
