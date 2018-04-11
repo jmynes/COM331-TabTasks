@@ -56,13 +56,7 @@ Replace my new tab page with something resembling [/r/startpages](https://www.re
 * Reorganize SCSS, fix hacks, implement rems
   * [Curious about this for potential deduplication? Probably best to do it by hand though.](http://zmoazeni.github.io/csscss/)
 
-
-## Known bugs:
-
-* Known bugs have been squashed!
-
-
-## Wishlist
+### Wishlist
 * Wallpaper slider
   * [Here are some example wallpapers (unattributed)](https://imgur.com/a/Xz9Ea)
 * Improved layout
@@ -73,6 +67,10 @@ Replace my new tab page with something resembling [/r/startpages](https://www.re
 * Optional slide-out sidebar
   * Moving some functions into sidebar might be nice, a screenshot of my rudimentary attempt from much earlier in the project is in [the \_notes directory](https://raw.githubusercontent.com/jmynes/COM331-TabTasks/master/_notes/sidebarAttempt.png)
   * [Useful sidebar w/ non-intrusive JS search terms](https://www.google.com/search?q=off+canvas+navigation)
+
+
+## Known bugs:
+* Known bugs have been squashed!
 
 
 ## Resources
