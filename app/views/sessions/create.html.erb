@@ -1,7 +1,9 @@
 <h1>Sessions#create</h1>
 <ul>
-  <li><b>Login</b>: <%= @provider_response['info']['name'] %></li>
+  <li><b>UID</b>: <%= @provider_response['uid'] %></li>
+
+  <li><b>Login</b>: <%= @provider_response['info']['nickname'] %></li>
   <li><b>Email</b>: <%= @provider_response['info']['email'] %></li>
 </ul>
 
-<pre><%= @provider_response.inspect %></pre>
+<p><%= @provider_response.to_json %></p>
