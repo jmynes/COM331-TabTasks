@@ -13,4 +13,17 @@ class ApplicationController < ActionController::Base
     session[:user_uid] = user.uid
     session[:user_nickname] = user.nickname
   end
+
+  # Predicate method; returns true if signed in
+  def signed_in?
+    # bang bang works in a bunch of languages, can test if things are true
+    !!current_user  # Ruby apparently treats most things as true, including 0 and ""
+  end
+
+  # Method for protecting controller actions
+  def authenticate_user
+    unless signed_in?
+      redirect_to login_url, notice: "Please log in first"
+    end
+  end
 end
