@@ -1,4 +1,4 @@
 class User < ApplicationRecord
   validates :uid, uniqueness: true
-  has_many :posts
+  has_many :tasks
 end

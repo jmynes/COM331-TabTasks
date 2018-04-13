@@ -15,8 +15,12 @@
     Deadline:
     = @task.deadline.timeframe
   %p.display
-    Urgency: 
+    Urgency:
     = @task.deadline.urgency
+  -# This below doesn't quite work yet.
+  -#%p.display
+    -#User:
+    -#= @task.user
 
   .fab.action
     = link_to cpanel_path do

@@ -1,4 +1,29 @@
 <% if flash[:notice] %>
   <p class="notice"><%= flash[:notice] %></p>
 <% end %>
-<h2><%= link_to 'Log in with Github', github_login_url %></h2>
+
+<nav>
+  <div class="fab">
+    <a href=<%= cpanel_path %>>
+      <i class="fa fa-calendar" alt="calendar button"></i>
+    </a>
+  </div>
+</nav>
+
+<div class="container-container">
+  <h2><i class="fa fa-github" alt="Github logo"></i> Github OAuth landing page, please sign in</h2>
+
+  <div class="fab action login">
+    <a href=<%= github_login_url %>>
+      <i class="fa fa-sign-in" alt="Sign in button"></i>
+    </a>
+  </div>
+  <h3>Push here to sign in</h3>
+
+  <div class="fab action logout">
+    <a href="/logout">
+      <i class="fa fa-sign-out" alt="Sign out button"></i>
+    </a>
+  </div>
+  <h3>Push here to sign out</h3>
+</div>

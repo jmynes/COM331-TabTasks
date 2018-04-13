@@ -72,10 +72,10 @@ input[type=text] {
   color: white;
   border: none;
   border-bottom: 1px solid white;
-  
+
 }
 
-/* 
+/*
 Adapted from:
 http://materialdesignblog.com/creating-a-simple-material-design-action-button-with-css/
 https://material.io/guidelines/style/color.html#color-color-palette
@@ -118,6 +118,22 @@ https://material.io/guidelines/style/color.html#color-color-palette
   background-color: rgba(244, 67, 54, 0.66);
 }
 .fa-times:hover {
+  background-color: #F44336;
+}
+
+.login {
+  background-color: rgba(76, 175, 80, 0.66);
+}
+
+.login:hover {
+  background-color: #4CAF50;
+}
+
+.logout {
+  background-color: rgba(244, 67, 54, 0.66);
+}
+
+.logout:hover {
   background-color: #F44336;
 }
 
