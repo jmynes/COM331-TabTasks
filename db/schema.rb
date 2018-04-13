@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180310235558) do
+ActiveRecord::Schema.define(version: 20180411055028) do
 
   create_table "deadlines", force: :cascade do |t|
     t.string "timeframe"
@@ -19,19 +19,20 @@ ActiveRecord::Schema.define(version: 20180310235558) do
     t.string "urgency"
   end
 
-  create_table "deadlines_tasks", id: false, force: :cascade do |t|
-    t.integer "deadline_id"
-    t.integer "task_id"
-    t.index ["deadline_id"], name: "index_deadlines_tasks_on_deadline_id"
-    t.index ["task_id"], name: "index_deadlines_tasks_on_task_id"
-  end
-
   create_table "tasks", force: :cascade do |t|
     t.string "verb"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "deadline_id"
     t.index ["deadline_id"], name: "index_tasks_on_deadline_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "uid"
+    t.string "nickname"
+    t.string "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
