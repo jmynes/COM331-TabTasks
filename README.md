@@ -69,7 +69,7 @@ Replace my new tab page with something resembling [/r/startpages](https://www.re
 * Wallpaper slider
   * [Here are some example wallpapers (unattributed)](https://imgur.com/a/Xz9Ea)
 * Improved layout
-* Google/configurable search
+* Configurable search
 * Expanded featureset
   * Options
   * Weather?
