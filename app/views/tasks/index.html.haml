@@ -11,8 +11,9 @@
       .fab.fa.fa-check
       .fab.fa.fa-times
 
-  %form.searchForm{:action => "https://duckduckgo.com/?q=", :method => "get"}
-    %input.searchBar{:autocomplete => "off", :autofocus => "autofocus", :name => "q", :placeholder => "Search DuckDuckGo...", :search_ => "", :type => "text"}/
+  -#%form.searchForm{:action => "https://duckduckgo.com/?q=", :method => "get"}
+  %form.searchForm{:action => "https://www.google.com/search?q=", :method => "get"}
+    %input.searchBar{:autocomplete => "off", :autofocus => "autofocus", :name => "q", :placeholder => "Search Google...", :search_ => "", :type => "text"}/
 
   .fab.action
     = link_to new_task_path do
