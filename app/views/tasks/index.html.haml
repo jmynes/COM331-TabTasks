@@ -5,7 +5,10 @@
 
 .container-container
   .reminder-container
-    %h1.reminder Did you remember to #{@reminder}?
+    - if @tasks.present?
+      %h1.reminder Did you remember to #{@reminder}?
+    - else
+      %h1.reminder Login and set your first task!
 
     .affirmation-container
       .fab.fa.fa-check
