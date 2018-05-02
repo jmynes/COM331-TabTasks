@@ -13,6 +13,8 @@ Deadline.destroy_all
 @today    = Deadline.create(timeframe: "Tonight", urgency: "ABSOLUTE")
 @deadline = Deadline.create(timeframe: "General reminder")
 
-@task = Task.create(verb: "do your EG225 homework", deadline: @week)
-@task = Task.create(verb: "study for your exam", deadline: @today)
-@task = Task.create(verb: "rewrite your resume", deadline: @deadline)
+@user = User.create(uid: "123123", nickname: "example", email: "joe@q.example")
+
+@task = Task.create(verb: "do your EG225 homework", deadline: @week, user: @user)
+@task = Task.create(verb: "study for your exam", deadline: @today, user: @user)
+@task = Task.create(verb: "rewrite your resume", deadline: @deadline, user: @user)
