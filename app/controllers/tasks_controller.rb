@@ -6,12 +6,14 @@ class TasksController < ApplicationController
 
   # Authenticate users on following pages (except...)
   before_action :authenticate_user, except: [:index, :show]
-  
+
   # GET /tasks
   # GET /tasks.json
   def index
     @tasks = Task.all
-    @reminder = @tasks.sample.verb
+    if @tasks.present?
+      @reminder = @tasks.sample.verb
+    end
 
     # @due = @tasks.sample.deadline.timeframe
     # Compare to timestamp of task creation, do some math
