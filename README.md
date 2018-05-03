@@ -61,8 +61,19 @@ And deploy/migrate! We could probably fix this with procfile...
 
 And finally, go to the URL!
 
-#### Currently not working:
-* OAuth on Heroku deployed build
+If it's not working:
+* Grab your RAILS_MASTER_KEY that you generated (currently residing in your environment variables)
+  * Go to your application in Heroku, under settings > config variables add RAILS_MASTER_KEY, and then the key.
+
+#### OAuth
+On Github: For our org, we went to Developer Settings > OAuth Apps
+* New OAuth App
+  * Name the application
+  * Homepage URL is our Github repo URL
+  * Callback URL is our heroku [root URL](https://mysterious-tor-88141.herokuapp.com)
+
+In Heroku's web control panel:
+* Go to your application in Heroku, under settings > config variables add GITHUB_ID and GITHUB_SECRET, found in your Github dev settings panel opened in the previous step.
 
 
 ## Problem
