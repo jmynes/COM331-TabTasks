@@ -3,6 +3,8 @@
 
 ## [COM 331 Project Two (Continuation of Project One: TabTasks)](https://courses.karlstolley.com/app/projects/#project-two), Professor Karl Stolley
 
+## You can visit the [deployed version here, on Heroku!](https://mysterious-tor-88141.herokuapp.com/tasks)
+
 ## What's different between this and [Project One](https://github.com/jmynes/COM331-TabTasks/tree/project-1)?
 * This project now has an [Upstream master branch](https://github.com/COM331-Jordan-Harris-Project/COM331-TabTasks)
   * The [original repo](https://github.com/jmynes/COM331-TabTasks/tree/master) was:
@@ -70,7 +72,7 @@ On Github: For our org, we went to Developer Settings > OAuth Apps
 * New OAuth App
   * Name the application
   * Homepage URL is our Github repo URL
-  * Callback URL is our heroku [root URL](https://mysterious-tor-88141.herokuapp.com)
+  * Callback URL is our heroku [root URL](https://mysterious-tor-88141.herokuapp.com/tasks)
 
 In Heroku's web control panel:
 * Go to your application in Heroku, under settings > config variables add GITHUB_ID and GITHUB_SECRET, found in your Github dev settings panel opened in the previous step.
