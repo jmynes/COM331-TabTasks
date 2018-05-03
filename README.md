@@ -33,6 +33,37 @@
 
 > Browse to 0.0.0.0:3000/tasks
 
+### Heroku Deployment
+Add the output of the below command to .bashrc, .zshrc, or wherever your local environment variables are stored.
+>$ rake secret
+
+Make sure you've updated your environment variables. This might look like (but you can also log out and back in):
+>$ source ~/.bashrc
+
+Now run the following to get your production key:
+>$ rails secrets:setup
+
+We ran this command and exited the text editor it brought up. We're not sure it helped, but deploying to Heroku was being finnicky, so I'm documenting it anyway:
+>$ rails secrets:edit
+
+Now run (from your project root directory):
+>$ heroku create
+
+Verify that it added the correct link for your Heroku deployment
+>$ git remote -v
+
+And deploy/migrate! We could probably fix this with procfile...
+>$ git push heroku master
+
+>$ heroku rake db:migrate
+
+>$ heroku rake db:seed
+
+And finally, go to the URL!
+
+#### Currently not working:
+* OAuth on Heroku deployed build
+
 
 ## Problem
 I tend to get lost in a sea of tasks, or simply forget something that I had meant to do. This often results in aimlessly browsing Facebook and endlessly opening new tabs.
